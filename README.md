@@ -1,3 +1,4 @@
+Markdown
 # 🎷 Polish Jazz Scene Analysis: Classics vs. The New Wave
 
 An exploratory data analysis (EDA) project examining listener reach and fan loyalty across generations of Polish jazz artists using the **Last.fm REST API**.
@@ -45,3 +46,31 @@ This project investigates two core questions:
 ├── main.py                          # Data fetching and plotting script
 ├── requirements.txt                 # Project dependencies
 └── README.md                        # Documentation
+🚀 Getting Started
+1. Clone the repository
+Bash
+git clone [https://github.com/YOUR_USERNAME/polish-jazz-data-analysis.git](https://github.com/YOUR_USERNAME/polish-jazz-data-analysis.git)
+cd polish-jazz-data-analysis
+2. Set up virtual environment & install dependencies
+Bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+(Create a requirements.txt containing: requests, pandas, matplotlib, seaborn)
+
+3. Configure API Credentials
+Get a free API key at Last.fm API and replace the placeholder in main.py:
+
+Python
+API_KEY = "YOUR_LASTFM_API_KEY"
+4. Run the script
+Bash
+python main.py
+The script will fetch live statistics from Last.fm, output a formatted summary to the console, and generate the comparative visualization.
+
+🔮 Future Improvements
+[ ] Fetch and parse specific track attributes (tempo, valence, acousticness) via the Spotify Web API.
+
+[ ] Implement automated caching to reduce API overhead.
+
+[ ] Build an interactive dashboard using Streamlit.
