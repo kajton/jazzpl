@@ -3,7 +3,8 @@ Markdown
 
 An exploratory data analysis (EDA) project examining listener reach and fan loyalty across generations of Polish jazz artists using the **Last.fm REST API**.
 
-![Project Visualization](charts/polish_jazz_comparison.png)
+![Project Visualization](<img width="1384" height="584" alt="pobrane (6)" src="https://github.com/user-attachments/assets/7871962a-25d4-4e2d-b04e-0a241c91eaf3" />
+)
 
 ---
 
