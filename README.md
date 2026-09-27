@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import seaborn as sns
 
-API_KEY = "01e3fea7e1bc7478cdfce453f314683b"
+API_KEY = "paste api from last.fm"
 URL = "https://ws.audioscrobbler.com/2.0/"
 
 # Zdefiniowana kohorta polskich artystów jazzowych z podziałem na ery
